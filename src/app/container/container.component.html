@@ -1,3 +1,5 @@
-<p>
-  container works!
-</p>
+<button (click)="changeLastName()">Mutable Change on LastName</button>
+
+<pre>{{changeObj | json}}</pre>
+
+<app-child-component [testObj]="changeObj"></app-child-component>
